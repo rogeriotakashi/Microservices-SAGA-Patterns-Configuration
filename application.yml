@@ -4,3 +4,5 @@ spring:
       server:
         git:
           uri: https://github.com/rogeriotakashi/Microservices-SAGA-Patterns-Configuration.git
+server:
+ port: 10002
