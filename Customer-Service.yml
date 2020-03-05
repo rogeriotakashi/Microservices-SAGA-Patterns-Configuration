@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Customer-Service
+    name: customer-service
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
