@@ -1,0 +1,7 @@
+server:
+  port: 9000
+
+swagger.config.refreshrate: 60000
+    
+
+      
