@@ -20,7 +20,3 @@ management:
       exposure:
         include: '*'
         
-eureka:
- client:
-   serviceUrl:
-     defaultZone: http://CONFIGURATION-SERVER
