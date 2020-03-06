@@ -3,8 +3,3 @@
 server:
  port: 8080
 
-# Eureka Server default zone configuration for all microservices
-eureka:
- client:
-   serviceUrl:
-     defaultZone: http://CONFIGURATION-SERVER

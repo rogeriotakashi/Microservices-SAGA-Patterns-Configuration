@@ -3,5 +3,8 @@ server:
 
 swagger.config.refreshrate: 60000
     
-
+eureka:
+ client:
+   serviceUrl:
+     defaultZone: http://CONFIGURATION-SERVER
       
