@@ -1,13 +1,10 @@
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/rogeriotakashi/Microservices-SAGA-Patterns-Configuration.git
+# This is the global application.yml for the microservices
+# Default port configuration for all microservices (Should not use it)
 server:
  port: 8080
- 
- eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+
+# Eureka Server default zone configuration for all microservices
+eureka:
+ client:
+   serviceUrl:
+     defaultZone: http://localhost:8761/eureka/
