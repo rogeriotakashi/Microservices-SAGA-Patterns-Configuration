@@ -2,8 +2,3 @@
 # Default port configuration for all microservices (Should not use it)
 server:
  port: 8080
-
-eureka:
- client:
-   serviceUrl:
-     defaultZone: http://localhost:8761
