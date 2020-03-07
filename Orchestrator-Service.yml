@@ -13,3 +13,5 @@ app:
  topic:
   order-request: create.order.request.t
   order-response: create.order.response.t
+  reserve-credit-request: reserve.credit.request.t
+  reserve-credit-response: reserve.credit.reseponse.t

@@ -18,5 +18,9 @@ eureka:
    serviceUrl:
      defaultZone: http://localhost:8761/eureka
     
+app:
+ topic:
+  reserve-credit-request: reserve.credit.request.t
+  reserve-credit-response: reserve.credit.reseponse.t
 
       
