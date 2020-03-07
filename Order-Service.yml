@@ -42,6 +42,6 @@ spring:
 
 app:
  topic:
-  order.request: create.order.request.t
-  order.response: create.order.response.t
+  order-request: create.order.request.t
+  order-response: create.order.response.t
 
