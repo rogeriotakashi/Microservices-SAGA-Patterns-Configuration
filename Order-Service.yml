@@ -13,26 +13,7 @@ spring:
       enabled: true
   jpa:
     databasePlatform: org.hibernate.dialect.H2Dialect
-    
- cloud:
-  stream:
-   default:
-    producer:
-     headerMode: raw
- kafka:
-  consumer:
-   group-id: order
-   auto-offset-reset: earliest
-   key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-   value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
-   properties:
-    spring:
-     json: 
-      trusted: 
-       packages: '*'
-  producer:
-   key-serializer: org.apache.kafka.common.serialization.StringSerializer
-   value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
       
 management:
   endpoints:
@@ -45,8 +26,6 @@ eureka:
    serviceUrl:
      defaultZone: http://localhost:8761/eureka
      
-     
-
 
 app:
  topic:
