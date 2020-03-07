@@ -43,8 +43,5 @@ spring:
 app:
  topic:
   order-request: create.order.request.t
-  
-outro:
- teste: 
   order-response: create.order.response.t
 
