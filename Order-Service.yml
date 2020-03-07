@@ -24,7 +24,7 @@ spring:
    group-id: order
    auto-offset-reset: earliest
    key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-   value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+   value-deserializer: org.springframework.kafka.support.serializer.ByteArrayDserializer 
    properties:
     spring:
      json: 
