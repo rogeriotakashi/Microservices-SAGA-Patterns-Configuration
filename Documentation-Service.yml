@@ -1,7 +1,12 @@
 server:
   port: 9000
 
-swagger.config.refreshrate: 60000
+# ServiceDescriptionUpdater 
+updater: 
+ config: 
+  default-swagger-url: /v2/api-docs
+  key-swagger-url: swagger_url
+  refreshrate: 60000
 
 eureka:
  client:
