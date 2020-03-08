@@ -7,6 +7,7 @@ updater:
   default-swagger-url: /v2/api-docs
   key-swagger-url: swagger_url
   refreshrate: 60000
+  service-suffix: service
 
 eureka:
  client:
