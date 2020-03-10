@@ -14,4 +14,16 @@ app:
   order-request: create.order.request.t
   order-response: create.order.response.t
   reserve-credit-request: reserve.credit.request.t
-  reserve-credit-response: reserve.credit.reseponse.t
+  reserve-credit-response: reserve.credit.response.t
+  approve-order-request: approve.order.request.t
+  approve-order-response: approve.order.response.t
+ consumers:
+  groupid:
+    create-order-response: CreateOrderResponseGroup
+    reserve-credit-response: ReserveCreditResponseGroup
+  
+  
+kafka:
+  server: localhost:9092
+
+  
