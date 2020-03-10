@@ -10,6 +10,6 @@ eureka:
 app:
  topic:
   reserve-credit-request: reserve.credit.request.t
-  reserve-credit-response: reserve.credit.reseponse.t
+  reserve-credit-response: reserve.credit.response.t
 
       
