@@ -8,6 +8,6 @@ eureka:
       
       
 app:
- topic:
-  process-order-request: process.order.request.t
-  process-order-response: process.order.response.t
+   topic:
+        process-order-request: process.order.request.t
+        response-validator: response.validator.t
