@@ -5,3 +5,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+      
+      
+app:
+ topic:
+  process-order-request: process.order.request.t
+  process-order-response: process.order.response.t
