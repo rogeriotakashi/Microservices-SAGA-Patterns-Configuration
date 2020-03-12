@@ -18,7 +18,7 @@ app:
   approve-order-request: approve.order.request.t
   approve-order-response: approve.order.response.t
   process-order-request: process.order.request.t
-  process-order-response: process.order.response.t
+  response-validator: response.validator.t
  consumers:
   groupid:
     create-order-response: CreateOrderResponseGroup
