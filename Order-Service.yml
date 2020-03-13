@@ -16,8 +16,6 @@ eureka:
 
 app:
  topic:
-  order-request: create.order.request.t
-  order-response: create.order.response.t
-  approve-order-request: approve.order.request.t
-  approve-order-response: approve.order.response.t
+  pending-orders: pending.orders.t
+
 
