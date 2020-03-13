@@ -24,9 +24,15 @@ app:
   groupid:
     create-order-response: CreateOrderResponseGroup
     reserve-credit-response: ReserveCreditResponseGroup
-  
+
   
 kafka:
   server: localhost:9092
+  
+order:
+  pending-order-listener:
+    service-verification-list: 
+      - reserveCredit
+      - processOrder
 
   
