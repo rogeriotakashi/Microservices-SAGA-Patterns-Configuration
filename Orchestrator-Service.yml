@@ -29,10 +29,8 @@ app:
 kafka:
   server: localhost:9092
   
-order:
-  pending-order-listener:
-    service-verification-list: 
-      - reserveCredit
-      - processOrder
-
+pending-order-properties:
+  service-verification-list: 
+  - reserveCredit
+  - processOrder
   
