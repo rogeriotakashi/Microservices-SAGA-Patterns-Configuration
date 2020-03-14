@@ -17,5 +17,7 @@ eureka:
 app:
  topic:
   pending-orders: pending.orders.t
+  approve-order: approve.order.t
+  compensate-order: compensate.order.t
 
 
