@@ -15,11 +15,11 @@ app:
   order-response: create.order.response.t
   reserve-credit-request: reserve.credit.request.t
   reserve-credit-response: reserve.credit.response.t
-  approve-order-request: approve.order.request.t
-  approve-order-response: approve.order.response.t
   process-order-request: process.order.request.t
   response-validator: response.validator.t
   pending-orders: pending.orders.t
+  approve-order: approve.order.t
+  compensate-order: compensate.order.t
  consumers:
   groupid:
     create-order-response: CreateOrderResponseGroup
