@@ -11,5 +11,6 @@ app:
  topic:
   reserve-credit-request: reserve.credit.request.t
   response-validator: response.validator.t
+  compensate-order: compensate.order.t
 
       
